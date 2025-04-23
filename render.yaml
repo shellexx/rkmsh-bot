@@ -1,7 +1,7 @@
 
 services:
   - type: web
-    name: rkmsh-bot
+    name: rkmsh-bot-pro
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
+    startCommand: "python bot_lang.py"
